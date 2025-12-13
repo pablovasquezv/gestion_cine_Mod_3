@@ -138,17 +138,7 @@ CINEMA_STATE = {
                 "20:00": 110
             }
         }
-    },
-    "reservas": [
-        {
-            "pelicula": "Avengers Endgame",
-            "horario": "18:30",
-            "cantidad": 2,
-            "precio_unitario": 8500,
-            "subtotal": 17000
-        }
-    ],
-    "costo_total": 17000
+    }
 }
 ```
 
