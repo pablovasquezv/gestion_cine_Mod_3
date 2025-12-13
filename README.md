@@ -207,7 +207,7 @@ initial_state.costo_total = CINEMA_STATE["costo_total"]
 | `costo_total` | `int` | Total acumulado de todas las reservas |
 
 **✅ Formato JSON legible** - sintaxis highlightada, indentación perfecta, ejemplo realista [web:370][web:371].
-```
+
 
 
 ## 🎯 Cómo Usar (5 pasos)
