@@ -117,7 +117,7 @@ CinemaState(
 
 # 📦 Estructura de Datos - CinemaManager (Python)
 
-PELICULAS = {
+{PELICULAS = {
     "Avengers Endgame": {
         "horarios": {"16:30": 100,"20:30": 100, "22:30": 80}, 
         "precio": 8500
@@ -143,7 +143,7 @@ PELICULAS = {
         "precio": 9000
     }
 }
-
+}
 
 
 ## **Uso directo en tu clase:**
