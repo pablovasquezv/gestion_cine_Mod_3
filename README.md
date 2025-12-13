@@ -107,7 +107,6 @@ CinemaState(
 )
 ```
 
----
 ## 🤝 **Contribuciones**
 ## 🎯 **Cómo Usar (5 pasos)**
 
