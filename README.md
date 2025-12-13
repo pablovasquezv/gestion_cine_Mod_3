@@ -108,7 +108,7 @@ CinemaState(
 
 ---
 
-## 🎯 **Uso Práctico**
+## 🎯 Uso Práctico
 
 ```
 1. Ejecutar CinemaManager()
