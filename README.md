@@ -36,7 +36,7 @@ Horarios - Avengers Endgame
 
 ### **3. 🎫 Reserva Inteligente**
 
-
+🔥 RESUMEN COMPRA
 Película: Avengers Endgame
 Horario: 18:30
 Cantidad: 2
