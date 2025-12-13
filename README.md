@@ -106,7 +106,7 @@ CinemaState(
 )
 ```
 
----
+
 
 ## 🎯 Uso Práctico
 
