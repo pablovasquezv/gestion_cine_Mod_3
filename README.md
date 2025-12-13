@@ -17,9 +17,9 @@
 ### **1. 🎥 Selección de Películas**
 
 🎬 PELÍCULAS DISPONIBLES
-  1 - Avengers Endgame (3 horarios)
-  2 - Spider-Man: No Way Home (2 horarios)
-  3 - Batman (4 horarios)
+ - 1 - Avengers Endgame (3 horarios)
+ - 2 - Spider-Man: No Way Home (2 horarios)
+ - 3 - Batman (4 horarios)
 
 
 **`mostrar_menu_peliculas()`** → Lista numerada con horarios disponibles
