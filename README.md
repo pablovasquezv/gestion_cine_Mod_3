@@ -108,9 +108,10 @@ CinemaState(
 ```
 
 ## 🤝 **Contribuciones**
-## 🎯 **Cómo Usar (5 pasos)**
+## **
 
 ```
+🎯 **Cómo Usar (5 pasos)
 1. cinema = CinemaManager()
 2. cinema.mostrar_menu_peliculas()
 3. pelicula = cinema.seleccionar_pelicula()
