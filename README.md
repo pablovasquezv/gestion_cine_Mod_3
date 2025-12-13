@@ -117,34 +117,57 @@ CinemaState(
 
 # 📦 Estructura de Datos - CinemaManager (Python)
 
-{PELICULAS = {
+```markdown
+## 🎥 **Catálogo de Películas - PELICULAS**
+
+```
+PELICULAS = {
     "Avengers Endgame": {
-        "horarios": {"16:30": 100,"20:30": 100, "22:30": 80}, 
+        "horarios": {"16:30": 100, "20:30": 100, "22:30": 80},
         "precio": 8500
     },
     "Spider-Man 2": {
-        "horarios": {"16:40": 75, "20:00": 100}, 
+        "horarios": {"16:40": 75, "20:00": 100},
         "precio": 7500
     },
     "Batman": {
-        "horarios": {"14:10": 60,"19:10": 60,"22:10": 60}, 
+        "horarios": {"14:10": 60, "19:10": 60, "22:10": 60},
         "precio": 9500
     },
     "Los ilusionistas 3": {
-        "horarios": {"19:00": 70, "21:50": 50}, 
+        "horarios": {"19:00": 70, "21:50": 50},
         "precio": 7000
     },
     "Jujutsu kaisen ejecución": {
-        "horarios": {"22:20": 85}, 
+        "horarios": {"22:20": 85},
         "precio": 8000
     },
     "Depredador: tierras salvajes": {
-        "horarios": {"19:50": 63, "21:50": 69}, 
+        "horarios": {"19:50": 63, "21:50": 69},
         "precio": 9000
     }
 }
-}
+```
 
+### **📊 Resumen del Catálogo**
+
+| **Película** | **Horarios** | **Boletos** | **Precio** |
+|--------------|--------------|-------------|------------|
+| Avengers Endgame | 3 | 280 | $8.500 |
+| Spider-Man 2 | 2 | 175 | $7.500 |
+| **Batman** | **3** | **180** | **$9.500** |
+| Los ilusionistas 3 | 2 | 120 | $7.000 |
+| Jujutsu kaisen ejecución | 1 | 85 | $8.000 |
+| Depredador: tierras salvajes | 2 | 132 | $9.000 |
+
+**🎯 Total: 6 películas | 892 boletos | Precio promedio: $8.250** ✨
+```
+
+**¡Perfecto para README!** 
+- **Sintaxis highlight** automática en GitHub
+- **Indentación limpia** (4 espacios)
+- **Tabla resumen** visual
+- **Estadísticas** atractivas .
 
 ## **Uso directo en tu clase:**
 
