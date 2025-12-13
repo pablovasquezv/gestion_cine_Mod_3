@@ -27,9 +27,9 @@
 ### **2. ⏰ Selección de Horario**
 
 Horarios - Avengers Endgame
-  1 - 15:00 (120 disponibles)
-  2 - 18:30 (80 disponibles) ← STOCK REAL-TIME
-  3 - 21:00 (150 disponibles)
+-  1 - 15:00 (120 disponibles)
+-  2 - 18:30 (80 disponibles) ← STOCK REAL-TIME
+-  3 - 21:00 (150 disponibles)
 
 
 **`seleccionar_horario(pelicula)`** → Muestra disponibilidad actualizada
