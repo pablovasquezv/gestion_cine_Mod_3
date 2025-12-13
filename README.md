@@ -78,7 +78,7 @@ mostrar_banner(titulo)              # 🎬 UI atractiva
 validar_confirmacion(prompt)        # s/n inteligente
 ```
 
----
+
 
 ## ✨ **Características Premium**
 
@@ -90,7 +90,7 @@ validar_confirmacion(prompt)        # s/n inteligente
 | ✅ **UX Confirmación** | Revisión previa |
 | ✅ **Escalable** | +Películas fácil |
 
----
+
 
 ## 📦 **Estructura de Datos**
 
@@ -107,11 +107,7 @@ CinemaState(
 )
 ```
 
-## 🤝 **Contribuciones**
-## **
-
-```
-🎯 **Cómo Usar (5 pasos)
+🎯 Cómo Usar (5 pasos)
 1. cinema = CinemaManager()
 2. cinema.mostrar_menu_peliculas()
 3. pelicula = cinema.seleccionar_pelicula()
