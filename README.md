@@ -1,4 +1,4 @@
-```markdown
+```
 # 🎬 **CinemaManager** - Sistema de Reservas Cinematográficas
 
 
@@ -12,6 +12,7 @@
 ```
 🎬 MENÚ PRINCIPAL → 🎥 PELÍCULA → ⏰ HORARIO → 🎫 CANTIDAD → ✅ CONFIRMAR → 📋 RESUMEN
 ```
+---
 
 ### **1. 🎥 Selección de Películas**
 ```
@@ -105,6 +106,7 @@ CinemaState(
 )
 ```
 
+```
 🎯 Cómo Usar (5 pasos)
 1. cinema = CinemaManager()
 2. cinema.mostrar_menu_peliculas()
