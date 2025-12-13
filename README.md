@@ -1,12 +1,9 @@
 ```markdown
 # 🎬 **CinemaManager** - Sistema de Reservas Cinematográficas
 
-[![Cinema Demo](https://via.placeholder.com/1200x400/1a1a2e/ffffff?text=CINEMA+MANAGER+-+RESERVAS+INTELIGENTES)](https://github.com/vasquezsoftware/cinemamanager)
 
 **🎫 Gestor inteligente de reservas de cine** con **validaciones automáticas**, **menús interactivos** y **control de stock en tiempo real**.
 
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ---
 
@@ -111,7 +108,7 @@ CinemaState(
 ```
 
 ---
-
+## 🤝 **Contribuciones**
 ## 🎯 **Cómo Usar (5 pasos)**
 
 ```
