@@ -35,8 +35,8 @@ Horarios - Avengers Endgame
 **`seleccionar_horario(pelicula)`** → Muestra disponibilidad actualizada
 
 ### **3. 🎫 Reserva Inteligente**
+| **🔥 RESUMEN COMPRA** | 
 
-🔥 RESUMEN COMPRA
 Película: Avengers Endgame
 Horario: 18:30
 Cantidad: 2
@@ -50,7 +50,7 @@ Precio: $8.500
 
 ### **4. 📋 Resumen Final**
 
-📋 RESUMEN FINAL
+
  1. Avengers Endgame - 18:30
     2 × $8.500 → Subtotal: $17.000
  2. Batman - 21:00  
