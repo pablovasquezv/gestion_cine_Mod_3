@@ -73,10 +73,10 @@ Horarios - Avengers Endgame
 
 ### **🔧 Utilidades Críticas**
 
-validar_numero(min, max, prompt)     # Input robusto
-formatear_precio(precio)             # $12.500 legible
-mostrar_banner(titulo)              # 🎬 UI atractiva
-validar_confirmacion(prompt)        # s/n inteligente
+- validar_numero(min, max, prompt)     # Input robusto
+- formatear_precio(precio)             # $12.500 legible
+- mostrar_banner(titulo)              # 🎬 UI atractiva
+- validar_confirmacion(prompt)        # s/n inteligente
 
 
 ## ✨ **Características Premium**
