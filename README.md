@@ -114,6 +114,57 @@ CinemaState(
 
 ---
 
+
+```markdown
+## 📦 **Estructura de Datos**
+
+```
+{
+  "CinemaState": {
+    "peliculas": {
+      "Avengers Endgame": {
+        "precio": 8500,
+        "horarios": {
+          "15:00": 120,
+          "18:30": 80,
+          "21:00": 150
+        }
+      },
+      "Spider-Man": {
+        "precio": 9200,
+        "horarios": {
+          "16:30": 90,
+          "20:00": 110
+        }
+      }
+    },
+    "reservas": [
+      {
+        "pelicula": "Avengers Endgame",
+        "horario": "18:30",
+        "cantidad": 2,
+        "precio_unitario": 8500,
+        "subtotal": 17000
+      }
+    ],
+    "costo_total": 17000
+  }
+}
+```
+
+### **🔍 Campos Explicados**
+
+| **Campo** | **Tipo** | **Descripción** |
+|-----------|----------|-----------------|
+| `peliculas` | `dict` | Catálogo con precios y horarios |
+| `horarios` | `dict` | `{hora: boletos_disponibles}` |
+| `reservas` | `list` | Historial de compras confirmadas |
+| `costo_total` | `int` | Total acumulado de todas las reservas |
+
+**✅ Formato JSON legible** - sintaxis highlightada, indentación perfecta, ejemplo realista [web:370][web:371].
+```
+
+
 ## 🎯 Cómo Usar (5 pasos)
 1. cinema = CinemaManager()
 2. cinema.mostrar_menu_peliculas()
