@@ -1,8 +1,12 @@
 ```markdown
 # 🎬 **CinemaManager** - Sistema de Reservas Cinematográficas
 
+[![Cinema Demo](https://via.placeholder.com/1200x400/1a1a2e/ffffff?text=CINEMA+MANAGER+-+RESERVAS+INTELIGENTES)](https://github.com/vasquezsoftware/cinemamanager)
 
-**Gestor inteligente de reservas de cine** con validaciones automáticas, menús interactivos y control de stock en tiempo real.
+**🎫 Gestor inteligente de reservas de cine** con **validaciones automáticas**, **menús interactivos** y **control de stock en tiempo real**.
+
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ---
 
@@ -14,10 +18,10 @@
 
 ### **1. 🎥 Selección de Películas**
 ```
-PELÍCULAS DISPONIBLES
+🎬 PELÍCULAS DISPONIBLES
   1 - Avengers Endgame (3 horarios)
-  2 - Spider-Man (2 horarios)
-  3 - Batman (3 horarios)
+  2 - Spider-Man: No Way Home (2 horarios)
+  3 - Batman (4 horarios)
 ```
 
 **`mostrar_menu_peliculas()`** → Lista numerada con horarios disponibles
@@ -26,69 +30,68 @@ PELÍCULAS DISPONIBLES
 ```
 Horarios - Avengers Endgame
   1 - 15:00 (120 disponibles)
-  2 - 18:30 (80 disponibles)
+  2 - 18:30 (80 disponibles) ← STOCK REAL-TIME
   3 - 21:00 (150 disponibles)
 ```
 
-**`seleccionar_horario(pelicula)`** → Muestra stock real-time
+**`seleccionar_horario(pelicula)`** → Muestra disponibilidad actualizada
 
 ### **3. 🎫 Reserva Inteligente**
 ```
-RESUMEN COMPRA
+🔥 RESUMEN COMPRA
 Película: Avengers Endgame
 Horario: 18:30
 Cantidad: 2
 Precio: $8.500
-SUBTOTAL: $17.000
+💰 SUBTOTAL: $17.000
 
 ¿Confirmar reserva? (s/n): 
 ```
 
-**`procesar_reserva()`** → Validación automática + cálculo + confirmación
+**`procesar_reserva()`** → Validación + cálculo + confirmación en 1 flujo
 
 ### **4. 📋 Resumen Final**
 ```
-RESUMEN FINAL
+📋 RESUMEN FINAL
  1. Avengers Endgame - 18:30
-    2 × $8.500
-    Subtotal: $17.000
- 2. Batman - 21:00
-    1 × $9.200
-    Subtotal: $9.200
---------------------------------------------------
-TOTAL: $26.200
+    2 × $8.500 → Subtotal: $17.000
+ 2. Batman - 21:00  
+    1 × $9.200 → Subtotal: $9.200
+──────────────────────────────────
+💎 TOTAL: $26.200
 ```
 
 ---
 
-## 🛠️ **Arquitectura y Características**
+## 🏗️ **Arquitectura Técnica**
 
-| **Función**                | **Propósito**           | **Validaciones**            |
-|----------------------------|-------------------------|-----------------------------|
-| `mostrar_menu_peliculas()` | Menú numerado películas | Conteo horarios             |
-| `seleccionar_pelicula()`   | Input validado          | 1-N (índices)               |
-| `seleccionar_horario()`    | Stock por horario       | Disponibilidad real         |
-| `procesar_reserva()`       | Flujo completo          | Stock, precio, confirmación |
-| `mostrar_resumen()`        | Reporte final           | Total acumulado             |
+| **Método** | **Responsabilidad** | **Validaciones** | **Complejidad** |
+|------------|-------------------|------------------|-----------------|
+| `mostrar_menu_peliculas()` | Menú numerado | Conteo horarios | 🟢 Simple |
+| `seleccionar_pelicula()` | Input 1-N | `validar_numero()` | 🟡 Media |
+| `seleccionar_horario()` | Stock real-time | Disponibilidad | 🟡 Media |
+| `procesar_reserva()` | **Flujo maestro** | Stock+Precio+Confirm | 🔴 Alta |
+| `mostrar_resumen()` | Reporte final | Total acumulado | 🟢 Simple |
 
-### **🔧 Funciones Auxiliares Críticas:**
+### **🔧 Utilidades Críticas**
 ```
-validar_numero(min, max, prompt)  # Input numérico seguro
-formatear_precio(precio)          # $12.500 formato
-mostrar_banner(titulo)           # 🎬 Encabezados visuales
-validar_confirmacion(prompt)     # s/n robusto
+validar_numero(min, max, prompt)     # Input robusto
+formatear_precio(precio)             # $12.500 legible
+mostrar_banner(titulo)              # 🎬 UI atractiva
+validar_confirmacion(prompt)        # s/n inteligente
 ```
 
 ---
 
-## ✨ **Ventajas del Sistema**
+## ✨ **Características Premium**
 
-✅ **Validación automática** - Sin errores de input  
-✅ **Stock en tiempo real** - Control inventario  
-✅ **UI intuitiva** - Menús numerados claros  
-✅ **Cálculos precisos** - Subtotales + totales  
-✅ **Confirmación** - Usuario revisa antes pagar  
-✅ **Escalable** - Fácil agregar películas  
+| ✅ **Validación Automática** | Sin errores de input |
+|-----------------------------|---------------------|
+| ✅ **Stock Real-Time** | Control inventario |
+| ✅ **UI Intuitiva** | Menús numerados |
+| ✅ **Cálculos Exactos** | Subtotal + Total |
+| ✅ **UX Confirmación** | Revisión previa |
+| ✅ **Escalable** | +Películas fácil |
 
 ---
 
@@ -102,31 +105,58 @@ CinemaState(
             "horarios": {"15:00": 120, "18:30": 80}
         }
     },
-    reservas: [Reserva(...)]
+    reservas: [Reserva(pelicula, horario, cantidad, precio, subtotal)],
+    costo_total: 0
 )
 ```
 
+---
 
-
-## 🎯 Uso Práctico
+## 🎯 **Cómo Usar (5 pasos)**
 
 ```
-1. Ejecutar CinemaManager()
-2. Seleccionar película (1-3)
-3. Elegir horario disponible
-4. Indicar cantidad (≤ stock)
-5. Confirmar → Reserva guardada
-6. Repetir o ver resumen final
+1. cinema = CinemaManager()
+2. cinema.mostrar_menu_peliculas()
+3. pelicula = cinema.seleccionar_pelicula()
+4. cinema.procesar_reserva()  # Flujo completo
+5. cinema.mostrar_resumen()
 ```
 
-**Sistema production-ready** para taquillas digitales - robusto, intuitivo y sin bugs [web:350][web:351].
+---
+
+## 📈 **Demo Interactivo**
+
 ```
-## 🤝 Contribuciones
+> Película: 1
+> Horario: 2  
+> Cantidad (max 80): 2
+> ¿Confirmar? s
+✅ ¡Reserva confirmada!
+```
 
-Las contribuciones son bienvenidas. Por favor, abre un issue para reportar bugs o sugerir mejoras. Envía pull requests para colaborar con nuevas funcionalidades o correcciones.
+---
 
-## 👨‍💻 Autor
+## 🤝 **Contribuciones**
 
-**Juan Pablo Vásquez** – Proyecto desarrollado y mantenido.
+¡Bienvenidas! 🚀  
+1. **Fork** el repositorio  
+2. Crea **feature branch** (`git checkout -b feature/nueva-pelicula`)  
+3. **Commit** tus cambios (`git commit -m 'feat: nueva pelicula'`)  
+4. **Push** (`git push origin feature/nueva-pelicula`)  
+5. Abre **Pull Request**
 
-#### Última actualización: 12-12-2025
+## 📄 **Licencia**
+
+[MIT License](LICENSE) - Usa libremente 🎥
+
+## 👨‍💻 **Autor**
+
+**Juan Pablo Vásquez**  
+💼 Full Stack Developer | 🎨 Python Specialist  
+[vasquezsoftwaresolutions@gmail.com](mailto:vasquezsoftwaresolutions@gmail.com) | [+56 9 7669 5206](tel:+56976695206)
+
+---
+
+*Última actualización: **12-12-2025*** ✨
+```
+
