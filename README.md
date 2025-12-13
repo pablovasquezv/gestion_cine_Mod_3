@@ -115,10 +115,10 @@ CinemaState(
 ---
 
 
-```markdown
+
 ## 📦 **Estructura de Datos**
 
-```
+
 {
   "CinemaState": {
     "peliculas": {
@@ -150,7 +150,7 @@ CinemaState(
     "costo_total": 17000
   }
 }
-```
+
 
 ### **🔍 Campos Explicados**
 
