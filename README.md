@@ -78,8 +78,6 @@ mostrar_banner(titulo)              # 🎬 UI atractiva
 validar_confirmacion(prompt)        # s/n inteligente
 ```
 
-
-
 ## ✨ **Características Premium**
 
 | ✅ **Validación Automática** | Sin errores de input |
@@ -90,11 +88,11 @@ validar_confirmacion(prompt)        # s/n inteligente
 | ✅ **UX Confirmación** | Revisión previa |
 | ✅ **Escalable** | +Películas fácil |
 
-
+```
 
 ## 📦 **Estructura de Datos**
 
-```
+
 CinemaState(
     peliculas={
         "Avengers": {
