@@ -1,4 +1,4 @@
-```
+
 # 🎬 **CinemaManager** - Sistema de Reservas Cinematográficas
 
 
@@ -9,10 +9,10 @@
 
 ## 🚀 **Flujo Completo de Funcionamiento**
 
-```
+
 🎬 MENÚ PRINCIPAL → 🎥 PELÍCULA → ⏰ HORARIO → 🎫 CANTIDAD → ✅ CONFIRMAR → 📋 RESUMEN
-```
----
+
+
 
 ### **1. 🎥 Selección de Películas**
 ```
@@ -20,7 +20,7 @@
   1 - Avengers Endgame (3 horarios)
   2 - Spider-Man: No Way Home (2 horarios)
   3 - Batman (4 horarios)
-```
+
 
 **`mostrar_menu_peliculas()`** → Lista numerada con horarios disponibles
 
