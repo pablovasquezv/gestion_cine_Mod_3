@@ -118,7 +118,58 @@ CinemaState(
 
 ## 📦 **Estructura de Datos**
 
+```python
+# 📦 Estructura de Datos - CinemaManager (Python)
 
+CINEMA_STATE = {
+    "peliculas": {
+        "Avengers Endgame": {
+            "precio": 8500,
+            "horarios": {
+                "15:00": 120,
+                "18:30": 80,
+                "21:00": 150
+            }
+        },
+        "Spider-Man": {
+            "precio": 9200,
+            "horarios": {
+                "16:30": 90,
+                "20:00": 110
+            }
+        }
+    },
+    "reservas": [
+        {
+            "pelicula": "Avengers Endgame",
+            "horario": "18:30",
+            "cantidad": 2,
+            "precio_unitario": 8500,
+            "subtotal": 17000
+        }
+    ],
+    "costo_total": 17000
+}
+```
+
+## **Uso directo en tu clase:**
+
+```python
+class CinemaState:
+    def __init__(self, peliculas, reservas):
+        self.peliculas = peliculas
+        self.reservas = reservas
+        self.costo_total = 0
+
+# Inicialización
+initial_state = CinemaState(
+    peliculas=CINEMA_STATE["peliculas"], 
+    reservas=CINEMA_STATE["reservas"]
+)
+initial_state.costo_total = CINEMA_STATE["costo_total"]
+```
+
+**✅ Listo para copiar y pegar** - diccionario Python puro con toda la estructura .
 {
   "CinemaState": {
     "peliculas": {
