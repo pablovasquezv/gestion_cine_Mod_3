@@ -12,7 +12,7 @@
 
 🎬 MENÚ PRINCIPAL → 🎥 PELÍCULA → ⏰ HORARIO → 🎫 CANTIDAD → ✅ CONFIRMAR → 📋 RESUMEN
 
-
+---
 
 ### **1. 🎥 Selección de Películas**
 
@@ -24,6 +24,7 @@
 
 - **`mostrar_menu_peliculas()`** → Lista numerada con horarios disponibles
 
+---
 ### **2. ⏰ Selección de Horario**
 
 Horarios - Avengers Endgame
@@ -33,6 +34,8 @@ Horarios - Avengers Endgame
 
 
 **`seleccionar_horario(pelicula)`** → Muestra disponibilidad actualizada
+
+---
 
 ### **3. 🎫 Reserva Inteligente**
 
@@ -47,16 +50,16 @@ Horarios - Avengers Endgame
 
 
 - **`procesar_reserva()`** → Validación + cálculo + confirmación en 1 flujo
-
+---
 ### **4. 📋 Resumen Final**
 
 
- - 1. Avengers Endgame - 18:30
+- 1. Avengers Endgame - 18:30
     2 × $8.500 → Subtotal: $17.000
- - 2. Batman - 21:00  
+- 2. Batman - 21:00  
     1 × $9.200 → Subtotal: $9.200
 
--💎 TOTAL: $26.200
+- 💎 TOTAL: $26.200
 
 
 ---
@@ -71,6 +74,8 @@ Horarios - Avengers Endgame
 | `procesar_reserva()` | **Flujo maestro** | Stock+Precio+Confirm | 🔴 Alta |
 | `mostrar_resumen()` | Reporte final | Total acumulado | 🟢 Simple |
 
+---
+
 ### **🔧 Utilidades Críticas**
 
 - validar_numero(min, max, prompt)     # Input robusto
@@ -78,6 +83,7 @@ Horarios - Avengers Endgame
 - mostrar_banner(titulo)              # 🎬 UI atractiva
 - validar_confirmacion(prompt)        # s/n inteligente
 
+---
 
 ## ✨ **Características Premium**
 
@@ -90,6 +96,7 @@ Horarios - Avengers Endgame
 | ✅ **Escalable** | +Películas fácil |
 
 
+---
 
 ## 📦 **Estructura de Datos**
 
@@ -105,6 +112,8 @@ CinemaState(
     costo_total: 0
 )
 
+---
+
 ## 🎯 Cómo Usar (5 pasos)
 1. cinema = CinemaManager()
 2. cinema.mostrar_menu_peliculas()
@@ -112,6 +121,7 @@ CinemaState(
 4. cinema.procesar_reserva()  # Flujo completo
 5. cinema.mostrar_resumen()
 
+---
 
 ## 📈 **Demo Interactivo**
 
@@ -122,6 +132,7 @@ CinemaState(
 > ¿Confirmar? s
 ✅ ¡Reserva confirmada!
 
+---
 
 ## 🤝 **Contribuciones**
 
@@ -132,9 +143,13 @@ CinemaState(
 4. **Push** (`git push origin feature/nueva-pelicula`)  
 5. Abre **Pull Request**
 
+---
+
 ## 📄 **Licencia**
 
 [MIT License](LICENSE) - Usa libremente 🎥
+
+---
 
 ## 👨‍💻 **Autor**
 
@@ -142,7 +157,7 @@ CinemaState(
 💼 Full Stack Developer | 🎨 Python Specialist  
 [vasquezsoftwaresolutions@gmail.com](mailto:vasquezsoftwaresolutions@gmail.com) | [+56 9 7669 5206](tel:+56976695206)
 
-
+---
 
 *Última actualización: **12-12-2025*** ✨
 
