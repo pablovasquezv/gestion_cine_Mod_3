@@ -41,7 +41,7 @@ Horarios - Avengers Endgame
 - Horario: 18:30
 - Cantidad: 2
 - Precio: $8.500
--💰 SUBTOTAL: $17.000
+- 💰 SUBTOTAL: $17.000
 
 ¿Confirmar reserva? (s/n): 
 
