@@ -22,7 +22,7 @@
  - 3 - Batman (4 horarios)
 
 
-**`mostrar_menu_peliculas()`** → Lista numerada con horarios disponibles
+- **`mostrar_menu_peliculas()`** → Lista numerada con horarios disponibles
 
 ### **2. ⏰ Selección de Horario**
 
@@ -43,10 +43,10 @@ Horarios - Avengers Endgame
 - Precio: $8.500
 - 💰 SUBTOTAL: $17.000
 
-¿Confirmar reserva? (s/n): 
+- ¿Confirmar reserva? (s/n): 
 
 
-**`procesar_reserva()`** → Validación + cálculo + confirmación en 1 flujo
+- **`procesar_reserva()`** → Validación + cálculo + confirmación en 1 flujo
 
 ### **4. 📋 Resumen Final**
 
