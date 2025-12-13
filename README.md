@@ -51,12 +51,12 @@ Horarios - Avengers Endgame
 ### **4. 📋 Resumen Final**
 
 
- 1. Avengers Endgame - 18:30
+ - 1. Avengers Endgame - 18:30
     2 × $8.500 → Subtotal: $17.000
- 2. Batman - 21:00  
+ - 2. Batman - 21:00  
     1 × $9.200 → Subtotal: $9.200
 ──────────────────────────────────
-💎 TOTAL: $26.200
+-💎 TOTAL: $26.200
 
 
 ---
