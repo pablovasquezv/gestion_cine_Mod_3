@@ -115,40 +115,6 @@ CinemaState(
 ---
 
 
-# 📦 Estructura de Datos - CinemaManager (Python)
-
-```markdown
-## 🎥 **Catálogo de Películas - PELICULAS**
-
-```
-PELICULAS = {
-    "Avengers Endgame": {
-        "horarios": {"16:30": 100, "20:30": 100, "22:30": 80},
-        "precio": 8500
-    },
-    "Spider-Man 2": {
-        "horarios": {"16:40": 75, "20:00": 100},
-        "precio": 7500
-    },
-    "Batman": {
-        "horarios": {"14:10": 60, "19:10": 60, "22:10": 60},
-        "precio": 9500
-    },
-    "Los ilusionistas 3": {
-        "horarios": {"19:00": 70, "21:50": 50},
-        "precio": 7000
-    },
-    "Jujutsu kaisen ejecución": {
-        "horarios": {"22:20": 85},
-        "precio": 8000
-    },
-    "Depredador: tierras salvajes": {
-        "horarios": {"19:50": 63, "21:50": 69},
-        "precio": 9000
-    }
-}
-```
-
 ### **📊 Resumen del Catálogo**
 
 | **Película** | **Horarios** | **Boletos** | **Precio** |
@@ -161,17 +127,8 @@ PELICULAS = {
 | Depredador: tierras salvajes | 2 | 132 | $9.000 |
 
 **🎯 Total: 6 películas | 892 boletos | Precio promedio: $8.250** ✨
-```
 
-**¡Perfecto para README!** 
-- **Sintaxis highlight** automática en GitHub
-- **Indentación limpia** (4 espacios)
-- **Tabla resumen** visual
-- **Estadísticas** atractivas .
 
-## **Uso directo en tu clase:**
-
-```python
 class CinemaState:
     def __init__(self, peliculas, reservas):
         self.peliculas = peliculas
@@ -184,40 +141,6 @@ initial_state = CinemaState(
     reservas=CINEMA_STATE["reservas"]
 )
 initial_state.costo_total = CINEMA_STATE["costo_total"]
-```
-
-**✅ Listo para copiar y pegar** - diccionario Python puro con toda la estructura .
-{
-  "CinemaState": {
-    "peliculas": {
-      "Avengers Endgame": {
-        "precio": 8500,
-        "horarios": {
-          "15:00": 120,
-          "18:30": 80,
-          "21:00": 150
-        }
-      },
-      "Spider-Man": {
-        "precio": 9200,
-        "horarios": {
-          "16:30": 90,
-          "20:00": 110
-        }
-      }
-    },
-    "reservas": [
-      {
-        "pelicula": "Avengers Endgame",
-        "horario": "18:30",
-        "cantidad": 2,
-        "precio_unitario": 8500,
-        "subtotal": 17000
-      }
-    ],
-    "costo_total": 17000
-  }
-}
 
 
 ### **🔍 Campos Explicados**
